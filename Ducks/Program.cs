@@ -17,6 +17,7 @@ namespace Ducks
                 new Duck() {Kind = KindOfDuck.Loon, Size = 13},
             };
 
+            ducks.Sort();
             PrintDucks(ducks);
         }
 
