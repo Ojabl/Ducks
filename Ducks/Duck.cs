@@ -20,6 +20,11 @@ namespace Ducks
             else
                 return 0;
         }
+
+        public override string ToString()
+        {
+            return $"A {Size} inch {Kind}";
+        }
     }
 
     enum KindOfDuck
